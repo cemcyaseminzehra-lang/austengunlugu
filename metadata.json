@@ -1,0 +1,6 @@
+{
+  "name": "Jane Austen Kitap Günlüğü",
+  "description": "Jane Austen'ın hayatı, klasik eserleri, kitap puanlama ve incelemeleri, kronolojik yayın serüveni ve kişisel okur sıralaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

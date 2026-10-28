@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-prose: 'Lora', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-prose);
+    background-color: #14181C;
+    color: #E1E7ED;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-prose {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-ui {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Dark Atmospheric Surfaces */
+.paper-texture {
+  background-color: #14181C;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.parchment-card {
+  background-color: #1C2228;
+  border: 1px solid #2C3440;
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.35);
+}
+
+.book-shadow {
+  box-shadow: 
+    -2px 0 4px rgba(0,0,0,0.4),
+    8px 12px 28px -4px rgba(0, 0, 0, 0.6),
+    2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.gold-foil-text {
+  background: linear-gradient(135deg, #ECC94B 0%, #D4AF37 35%, #FFF2A1 50%, #B8860B 80%, #996515 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wax-seal-shadow {
+  box-shadow: inset 0 2px 4px rgba(255,255,255,0.3), 0 4px 12px rgba(0, 0, 0, 0.5);
+}
